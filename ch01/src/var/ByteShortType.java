@@ -1,4 +1,4 @@
-package var;
+package var; //
 
 public class ByteShortType {
 
