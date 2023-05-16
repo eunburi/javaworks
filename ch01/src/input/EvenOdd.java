@@ -14,6 +14,7 @@ public class EvenOdd {
 			int num = scan.nextInt(); //키보드에서 숫자 입력
 			
 			//String result = ((num % 2 == 0) ? "짝수":"홀수");
+			
 			String result = "";
 			if(num % 2 == 0) {
 				result = "짝수입니다.";
