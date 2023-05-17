@@ -1,4 +1,4 @@
-package whilepackage;
+package whileexample;
 
 public class while2 {
 
