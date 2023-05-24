@@ -6,11 +6,13 @@ public class Array1To10 {
 		// 1부터 10까지 출력, 합계 - 변수 사용
 		int sum1 = 0;
 		for(int i=1; i<=10; i++) {
+			sum1 += i;
 			System.out.print(i + " ");
 		}
 			
 		
 		System.out.println();
+		System.out.println("합계: " + sum1);
 		
 		// 1부터 10까지 출력 - 배열사용
 		int[] arr = new int[10];
