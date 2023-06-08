@@ -1,0 +1,52 @@
+package wrapper;
+
+import java.util.ArrayList;
+
+public class IntegerTest {
+
+	public static void main(String[] args) {
+		
+		int num1 = 100;
+		Integer num2 = 200; //자동 형변환(오토 박싱)
+		int sum;
+		
+		sum = num1 + num2.intValue(); //Integer - > int(언박싱)
+		System.out.println(sum);
+		
+		// Double.parseInt(문자형) - > 정수형으로 변환
+		int num3 = Integer.parseInt("300");
+		System.out.println(num3);
+		
+		//ValueOf() - > 정수형(Integer)으로 변환
+		Integer num4 = Integer.valueOf("400");
+		
+		
+		//자료형으로 사용
+		ArrayList<Integer> numberList = new ArrayList<>();
+		numberList.add(10);
+		numberList.add(20);
+		numberList.add(30);
+		
+		
+		System.out.println(numberList.get(0));
+		
+		//전체출력
+		for(int i=0; i<numberList.size(); i++) {
+			Integer number = numberList.get(i);
+			System.out.println("전체출력" + number);
+		}
+		System.out.println();
+		
+					
+		//요소변경 (1번 인덱스를 50으로 변경)
+		numberList.set(1, 50);
+		
+		//항샹for문
+				for(Integer number : numberList)
+					System.out.println(number); 
+
+		
+		
+	}
+
+}
