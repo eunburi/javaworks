@@ -9,8 +9,8 @@ public class FileCopy2 {
 
 	public static void main(String[] args) {
 		//이미지 파일을 읽고 쓰기(복사)
-		String orignFile = "c:/file/bg1.jpg"; // 원본파일
-		String copyFile = "c:/file/bg3.jpg"; //사본파일
+		String orignFile = "c:/file/ojdbc8.jar"; // 원본파일
+		String copyFile = "c:/file/ojdbc8-1.jar"; //사본파일
 		long start = 0, end = 0; // long은 8byte int보다 큼
 		
 		
