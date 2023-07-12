@@ -1,7 +1,7 @@
 package banking.banking_db;
 import java.util.Scanner;
 
-public class BankMain {
+public class MainApp {
 	// 통장 계좌를 만들 ArrayList 생성
 
 
