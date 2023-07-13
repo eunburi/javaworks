@@ -1,7 +1,6 @@
 package collections.box2;
 
-
-
+//제네릭(Generic)클래스 
 public class Box {
 	
 	private Object obj;
